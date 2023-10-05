@@ -9,12 +9,12 @@
 }
 
 :root {
-    --bgcolor : #212121;
+    --bgcolor : #1C1C1C;
     --accentcolor: #FF7F02;
 }
 
 body {
-    background-color: var(--bgcolor);
+    background-color: #1C1C1C;
 }
 
 .link-tree {
@@ -35,7 +35,7 @@ body {
 }
 
 .link-tree a {
-    background-color: var(--accentcolor);
+    background-color: #FF7F02;
     color: #FF7F0;
     width: 100%;
     padding: 15px;
@@ -44,13 +44,13 @@ body {
     text-transform: uppercase;
     font-size: 1.1rem;
     font-weight: bold;
-    border: solid 2px var(--accentcolor);
+    border: solid 2px #FF7F02;
     transition: all 0.5s linear;
 }
 
 .link-tree a:hover {
-    background-color: var(--bgcolor);
-    color: var(--accentcolor);
+    background-color: #1C1C1C;
+    color: #FF7F02;
 }
 
 @media (min-width: 1024px) {
